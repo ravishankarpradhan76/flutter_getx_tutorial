@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'home_screen.dart';
+import 'counter_example.dart';
+import 'counter_exampletwo.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
 
-      home: const HomeScreen(),
+      home: const CounterExampletwo(),
     );
   }
 }
