@@ -28,7 +28,11 @@ class _CounterExampletwoState extends State<CounterExampletwo> {
           color: Colors.red.withOpacity(opacity),
         ),
           Slider(value: opacity, onChanged: (value){
+          print(value);
+          opacity = value;
+          setState(() {
 
+          });
           })
         ],
       ),

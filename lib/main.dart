@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'counter_example.dart';
 import 'counter_exampletwo.dart';
+import 'favorite_page.dart';
 
 
 void main() {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
 
-      home: const CounterExampletwo(),
+      home: const FavoritePage(),
     );
   }
 }
